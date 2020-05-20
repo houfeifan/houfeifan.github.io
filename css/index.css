@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+	text-align: center;
+	background: #2a5b82;
+	font-family: sans-serif;
+}
+#video {
+	opacity: .8;
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	  	-moz-transform: translate(-50%,-50%);
+	    	transform: translate(-50%,-50%);
+	z-index: -100;
+}
+#claim {
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    	transform: translate(-50%,-50%);
+}
+#claim h1 {
+	color: #fff;
+	font-size: 4em;
+	padding: 10px;
+}
+#claim a {
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 10px 100px;
+	text-decoration: none;
+	color: #fff;
+}
